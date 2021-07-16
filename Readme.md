@@ -1,4 +1,4 @@
-Olá! Este projeto tem como objetivo o desenvolvimento de uma vitrine virtual simples em HTML e CSS para treinamento proposto pela Gama Academy.
+Olá! Este projeto tem como objetivo o desenvolvimento de uma vitrine virtual simples em HTML e CSS para treinamento proposto pela Gama Academy!
 
 	Primeira Fase do Projeto - Página Principal da loja
 	
