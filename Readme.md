@@ -1,7 +1,7 @@
 Olá! Este projeto tem como objetivo o desenvolvimento de uma vitrine virtual simples em HTML e CSS para treinamento proposto pela Gama Academy.
 
-	Primeira Fase do Projeto (prazo = 19/07/2021)
-Página Principal da loja
+	Primeira Fase do Projeto - Página Principal da loja
+(prazo previsto = 19/07/2021)
 
 Complexidade *****
 
@@ -17,8 +17,8 @@ Complexidade *****
 
 
 
-	Segunda Fase do Projeto (prazo = 21/07/2021)
-Página com informações sobre o produto
+	Segunda Fase do Projeto - Página com informações sobre o produto
+(prazo previsto = 21/07/2021)
 
 Complexidade ****
 
@@ -30,8 +30,8 @@ Complexidade ****
 
 
 
-	Terceira Fase do Projeto (prazo = 23/07/2021)
-Página com informações sobre a empresa
+	Terceira Fase do Projeto - Página com informações sobre a empresa
+(prazo = 23/07/2021)
 
 Complexidade ***
 
