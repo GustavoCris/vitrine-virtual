@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Majora's Market</title>
+</head>
+<body>
+
+<!-- Headder -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-purple">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a26873c4-f0ea-407f-b2a2-a4c533259b54/d4jqivi-7d5f7052-7252-416f-bc06-4688ae29c0fe.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyNjg3M2M0LWYwZWEtNDA3Zi1iMmEyLWE0YzUzMzI1OWI1NFwvZDRqcWl2aS03ZDVmNzA1Mi03MjUyLTQxNmYtYmMwNi00Njg4YWUyOWMwZmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2ePXOUA5092skR9d4bessgQdxAPJmIi52m6_AOhWpDs" alt="Majora's Icon" width="60" height="50">
+                </a>
+              <a class="navbar-brand" href="#">MAJORA'S MARKET</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Consoles</a></li>
+                      <li><a class="dropdown-item" href="#">Jogos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Criar Conta</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Procurando por algo?" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar!</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+<!-- Fim do Headder -->
+
+<!-- Carousel -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://static3.consoleprice.co.uk/images/homepageheaderimages/298.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://static3.consoleprice.co.uk/images/homepageheaderimages/165.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Fim do Carousel -->
+
+  <hr>
+<!-- Produtos -->
+<!-- Consoles de Mesa -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card h-100">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/1920px-NES-Console-Set.png" class="card-img-top" alt="NES" width="100%">
+                    <div class="card-body">
+                      <h4>R$ 30,00 / Semanal</h4>
+                      <h5 class="card-title">Nintendo Entertainment System</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+              <div class="card h-100">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SNES-Mod1-Console-Set.png/1920px-SNES-Mod1-Console-Set.png" class="card-img-top" alt="SNES" width="100%">
+                  <div class="card-body">
+                    <h4>R$ 40,00 / Semanal</h4>
+                    <h5 class="card-title">Super Nintendo</h5>
+                  </div>
+                </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card h-100">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/1280px-N64-Console-Set.png" class="card-img-top" alt="N64" width="100%">
+                <div class="card-body">
+                  <h4>R$ 50,00 / Semanal</h4>
+                  <h5 class="card-title">Nintendo 64</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card h-100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/GameCube-Console-Set.png/1280px-GameCube-Console-Set.png" class="card-img-top" alt="NGC" width="100%">
+              <div class="card-body">
+                <h4>R$ 60,00 / Semanal</h4>
+                <h5 class="card-title">Nintendo Game Cube</h5>
+              </div>
+            </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <div class="card h-100">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Wii_console.png/800px-Wii_console.png" class="card-img-top" alt="Wii" width="100%">
+            <div class="card-body">
+              <h4>R$ 90,00 / Semanal</h4>
+              <h5 class="card-title">Nintendo Wii</h5>
+            </div>
+          </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+      <div class="card h-100">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/1920px-Wii_U_Console_and_Gamepad.png" class="card-img-top" alt="WiiU" width="100%">
+          <div class="card-body">
+            <h4>R$ 120,00 / Semanal</h4>
+            <h5 class="card-title">Nintendo Wii U</h5>
+          </div>
+        </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+    <div class="card h-100">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Nintendo_Switch_Console.png" class="card-img-top" alt="Switch" width="100%">
+        <div class="card-body">
+          <h4>R$ 150,00 / Semanal</h4>
+          <h5 class="card-title">Nintendo Switch</h5>
+        </div>
+      </div>
+</div>
+<!-- Fim dos Consoles de Mesa -->
+
+<!-- Portáteis -->
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+  <div class="card h-100">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/800px-Game-Boy-FL.jpg" class="card-img-top" alt="GB" width="100%">
+      <div class="card-body">
+        <h4>R$ 20,00 / Semanal</h4>
+        <h5 class="card-title">Game Boy</h5>
+      </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="card h-100">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg/1024px-Nintendo-Game-Boy-Advance-Purple-FL.jpg" class="card-img-top" alt="GBA" width="100%">
+    <div class="card-body">
+      <h4>R$ 25,00 / Semanal</h4>
+      <h5 class="card-title">Game Boy Advance</h5>
+    </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="card h-100">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gameboy-Advance-SP-Mk2.jpg/1024px-Gameboy-Advance-SP-Mk2.jpg" class="card-img-top" alt="GBASP" width="100%">
+  <div class="card-body">
+    <h4>R$ 30,00 / Semanal</h4>
+    <h5 class="card-title">Game Boy Advance SP</h5>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="card h-100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Game-Boy-Micro.jpg/1024px-Game-Boy-Micro.jpg" class="card-img-top" alt="GBM" width="100%">
+<div class="card-body">
+  <h4>R$ 35,00 / Semanal</h4>
+  <h5 class="card-title">Game Boy Micro</h5>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="card h-100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Nintendo_DS_Trans.png" class="card-img-top" alt="NDS" width="100%">
+<div class="card-body">
+<h4>R$ 40,00 / Semanal</h4>
+<h5 class="card-title">Nintendo DS</h5>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="card h-100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Nintendo-2DS-angle.png/1024px-Nintendo-2DS-angle.png" class="card-img-top" alt="N2DS" width="100%">
+<div class="card-body">
+<h4>R$ 60,00 / Semanal</h4>
+<h5 class="card-title">Nintendo 2DS</h5>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="card h-100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/New_Nintendo_3DS.png/800px-New_Nintendo_3DS.png" class="card-img-top" alt="NN3DS" width="100%">
+<div class="card-body">
+<h4>R$ 80,00 / Semanal</h4>
+<h5 class="card-title">New Nintendo 3DS</h5>
+</div>
+</div>
+</div>
+</div>
+<!-- Fim dos Portáteis -->
+<!-- Fim dos Produtos -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
