@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Majora's Market</title>
+</head>
+
+<body>
+
+  <!-- Headder -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-purple">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a26873c4-f0ea-407f-b2a2-a4c533259b54/d4jqivi-7d5f7052-7252-416f-bc06-4688ae29c0fe.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyNjg3M2M0LWYwZWEtNDA3Zi1iMmEyLWE0YzUzMzI1OWI1NFwvZDRqcWl2aS03ZDVmNzA1Mi03MjUyLTQxNmYtYmMwNi00Njg4YWUyOWMwZmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2ePXOUA5092skR9d4bessgQdxAPJmIi52m6_AOhWpDs"
+            alt="Majora's Icon" width="60" height="50">
+        </a>
+        <a class="navbar-brand" href="index.html">MAJORA'S MARKET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="mesa.html">Consoles de Mesa</a></li>
+                <li><a class="dropdown-item" href="portatil.html">Consoles Portáteis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Criar
+                conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Meu
+                carrinho</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Procurando por algo?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Buscar!</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim do Headder -->
+
+    <!--produto-->
+    <main role="main">
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <main class="mt-5 pt-4">
+              <div class="container dark-grey-text mt-5">
+                <div class="row wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+
+                  <!--carousel-->
+                  <div class="col-md-6 mb-4">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                          aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                          aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                          aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                          aria-label="Slide 4"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <img
+                            src="https://assets.nintendo.com/image/upload/b_white,c_pad,f_auto,h_382,q_auto,w_573/ncom/pt_BR/hardware/switch/nintendo-switch-new-package/gallery/image01?v=2021072218"
+                            class="d-block w-100" alt="Nintendo Switch">
+                          <div class="carousel-caption d-none d-md-block">
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img
+                            src="https://assets.nintendo.com/image/upload/b_white,c_pad,f_auto,h_382,q_auto,w_573/ncom/pt_BR/hardware/switch/nintendo-switch-new-package/gallery/image02?v=2021072218"
+                            class="d-block w-100" alt="Nintendo ">
+                          <div class="carousel-caption d-none d-md-block">
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img
+                            src="https://assets.nintendo.com/image/upload/b_white,c_pad,f_auto,h_382,q_auto,w_573/ncom/pt_BR/hardware/switch/nintendo-switch-new-package/gallery/image03?v=2021072218"
+                            class="d-block w-100" alt="Nintendo ">
+                          <div class="carousel-caption d-none d-md-block">
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img
+                            src="https://assets.nintendo.com/image/upload/b_white,c_pad,f_auto,h_382,q_auto,w_573/ncom/pt_BR/hardware/switch/nintendo-switch-new-package/gallery/image04?v=2021072218"
+                            class="d-block w-100" alt="Nintendo ">
+                          <div class="carousel-caption d-none d-md-block">
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <!--fim do carousel-->
+
+                  <div class="col-md-6 mb-4">
+                    <div class="p-4">
+                      <p class="lead">
+                        <span class="mr-1">
+                          <del>R$ 300,00</del>
+                        </span>
+                        <span>R$ 150,00 / Semanal</span>
+                      </p>
+                      <h5>Nintendo Switch com Joy-Con™</h5>
+                      <p>O console que lhe permite jogar os jogos que quiser, onde e como quiser.
+                        <br>
+                        Inclui o console Nintendo Switch e a base do Nintendo Switch na cor preta, contrastando com os
+                        controles Joy-Con direito e esquerdo, um vermelho e o outro azul. Também inclui tudo o que você
+                        precisa para começar a jogar.
+                        <br>
+                        Número do modelo: HAC-001(-01) (o número de série começa com “XKW”)
+                        <br>
+                        Este modelo inclui uma bateria com duração aproximada de 4,5 a 9 horas*.
+                        <br>
+                        *A duração da bateria dependerá do software usado. Por exemplo, com o jogo The Legend of Zelda™:
+                        The Breath of the Wild, alugado separadamente, a bateria dura aproximadamente 5,5 horas.
+                      </p>
+                      <p class="lead font-weight-bold">Deseja alugar por quantas semanas?</p>
+                      <form class="d-flex justify-content-left">
+                        <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px">
+                        <button class="btn btn-success btn-md my-0 p waves-effect waves-light" type="button"
+                          data-bs-toggle="modal" data-bs-target="#exampleModal">Alugar!
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row d-flex justify-content-center wow fadeIn"
+                  style="visibility: visible; animation-name: fadeIn;">
+                  <div class="col-md-12 text-center">
+
+                    <h4 class="my-4 h4">Recomendados</h4>
+
+                    <p>Quem viu este produto também alugou:</p>
+                    <br>
+
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SNES-Mod1-Console-Set.png/1280px-SNES-Mod1-Console-Set.png"
+                        alt="Card image cap">
+                      <hr>
+                      <div class="card-body">
+                        <h4>R$ 40,00 / Semanal</h4>
+                        <h5 class="card-title">Super Nintendo</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Mais informações</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/1280px-N64-Console-Set.png"
+                        alt="Card image cap">
+                      <hr>
+                      <div class="card-body">
+                        <h4>R$ 50,00 / Semanal</h4>
+                        <h5 class="card-title">Nintendo 64</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Mais informações</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/GameCube-Console-Set.png/1280px-GameCube-Console-Set.png"
+                        alt="Card image cap">
+                      <hr>
+                      <div class="card-body">
+                        <h4>R$ 60,00 / Semanal</h4>
+                        <h5 class="card-title">Nintendo GameCube</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Mais informações</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </main>
+    <!-- Fim do produto -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Faça login para continuar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Manter logado</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" disabled>Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- fim do Modal -->
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Voltar ao topo</a>
+        </p>
+        <p>O uso deste site está sujeito aos termos e condições do Termo de Uso e Política de privacidade.</br>
+        <p>© Majora's Market LTDA. Todos os direitos reservados.
+        </br><a href="suporte.html">Fale conosco</p></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Majora's Market</title>
+</head>
+
+<body>
+
+  <!-- Headder -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-purple">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a26873c4-f0ea-407f-b2a2-a4c533259b54/d4jqivi-7d5f7052-7252-416f-bc06-4688ae29c0fe.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyNjg3M2M0LWYwZWEtNDA3Zi1iMmEyLWE0YzUzMzI1OWI1NFwvZDRqcWl2aS03ZDVmNzA1Mi03MjUyLTQxNmYtYmMwNi00Njg4YWUyOWMwZmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2ePXOUA5092skR9d4bessgQdxAPJmIi52m6_AOhWpDs"
+            alt="Majora's Icon" width="60" height="50">
+        </a>
+        <a class="navbar-brand" href="index.html">MAJORA'S MARKET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="mesa.html">Consoles de Mesa</a></li>
+                <li><a class="dropdown-item" href="portatil.html">Consoles Portáteis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Criar
+                conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Meu
+                carrinho</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Procurando por algo?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Buscar!</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim do Headder -->
+
+    <!--produto-->
+    <main role="main">
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <main class="mt-5 pt-4">
+              <div class="container dark-grey-text mt-5">
+                <div class="row wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+
+                  <!--skullkid-->
+                  <div class="col-md-6 mb-4">
+                  <img src="https://www.seekpng.com/png/detail/27-270874_skull-kid-skull-kid-majoras-mask.png" class="d-block w-100" alt="Nintendo Switch">
+                  </div>
+                  <!--skullkid end-->
+
+                  <div class="col-md-6 mb-4">
+                    <div class="p-4">
+                      
+                      <h5>Quem somos</h5>
+                      <p>Nós da Majora's Market temos por objetivo levar acessibilidade para o mundo todo, de forma que
+                        independente do preço de um console de ultima geração, qualquer um seja capaz de ter acesso
+                        ao console para jogar seus jogos favoritos sem ter que pagar o valor integral do produto!
+                        Tendo isto em mente, o aluguel serviu como uma luva,
+                        pois também resolve o problema das pessoas que gostam de acompanhar uma franquia, mas depois
+                        que completam o determinado jogo da franquia, seu console já não tem mais utilidade para esta 
+                        pessoa e acabou desperdiçando dinheiro que poderia usar no aluguel da geração posterior para não 
+                        perder nenhuma novidade ;)
+                      </p>
+                      <p class="lead font-weight-bold">Envie-nos uma mensagem utilizando o formulário abaixo:</p>
+                      
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Assunto</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3"><input class="btn btn-primary" type="submit" value="Enviar" data-bs-toggle="modal" data-bs-target="#exampleModal"></div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Fim do produto -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Faça login para continuar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Manter logado</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" disabled>Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- fim do Modal -->
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Voltar ao topo</a>
+        </p>
+        <p>O uso deste site está sujeito aos termos e condições do Termo de Uso e Política de privacidade.</br>
+        <p>© Majora's Market LTDA. Todos os direitos reservados.
+          </br><a href="suporte.html">Fale conosco</p></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
